@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-bin
+bin/tictactoe
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
