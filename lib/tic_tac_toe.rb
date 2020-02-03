@@ -26,7 +26,6 @@ class TicTacToe
     @board[index] == "X" || @board[index] == "O"
   end
     
-  end
     
   
 end
