@@ -88,7 +88,8 @@ class TicTacToe
       elsif (@board[win[0]]) == "O" && (@board[win[1]]) ==  "O" && (@board[win[2]]) == "O"
         return "O"
       else
-        FALSE
+        nil 
+      end
     end
   end
 
