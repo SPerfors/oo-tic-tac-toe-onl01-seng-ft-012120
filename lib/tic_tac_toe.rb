@@ -25,6 +25,8 @@ class TicTacToe
   def position_taken?(index_i)
     ((@board[index_i] == "X") || (@board[index_i] == "O"))
   end
+  
+  def valid_move?()
     
     
   
