@@ -19,6 +19,8 @@ class TicTacToe
   end
   
   def move
+    @board.count{|token| token == "X" || token == "O"}
+  end
     
   
 end
