@@ -30,8 +30,9 @@ class TicTacToe
     index.between?(0,8) && !position_taken?(index)
   end
   
-  def turn
+  def turn(index)
     puts "Please enter 1-9"
+    index = gets.
     
     
     
