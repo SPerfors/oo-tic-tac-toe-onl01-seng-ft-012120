@@ -18,8 +18,8 @@ class TicTacToe
     user.to_i - 1 
   end
   
-  def move
-    @board.count{|token| token == "X" || token == "O"}
+  def move(index, token)
+    
   end
     
   
