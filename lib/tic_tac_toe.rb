@@ -38,7 +38,7 @@ class TicTacToe
       end
     end
   end
-  
+  return number_of_turns
   
   
 end
