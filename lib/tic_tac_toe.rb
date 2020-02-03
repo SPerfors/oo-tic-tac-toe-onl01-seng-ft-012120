@@ -59,7 +59,7 @@ class TicTacToe
   
   def won?
     WIN_COMBINATIONS.detect do |win|
-      if {@board[win[0]]
+      if (@board[win[0]]) && (@board[win[1]]) && (@board[win[2]])
     
   end
   
