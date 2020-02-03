@@ -38,7 +38,9 @@ class TicTacToe
       move(index, position_taken(user))
       display_board
     else
-      
+      turn 
+    end
+  end
     
     
     
