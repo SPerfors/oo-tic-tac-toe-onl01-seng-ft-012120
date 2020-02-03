@@ -104,10 +104,8 @@ class TicTacToe
     end
   end
   
-
-    
-
-  
-  
-  
 end
+
+bin/tictactoe
+game = tic_tac_toe.new
+game.play
